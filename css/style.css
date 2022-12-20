@@ -181,15 +181,14 @@ color: rgba(94, 54, 18, 0.76);
     background-size: cover;
 }
 
-
-
-
-
 /* =====FOOTER===== */
 
 .titulo-categorias {
     background-color:rgba(70, 41, 13, 0.685);
-    padding: 15px;
+    padding: 60px;
+
+    display: flex;
+    justify-content: space-evenly;
 
 }
 
