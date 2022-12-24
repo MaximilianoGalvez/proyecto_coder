@@ -4,6 +4,7 @@ padding: 0;
 box-sizing: border-box;
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
+outline: 2px solid red;
 
 }   
 
@@ -271,5 +272,42 @@ align-items: center;
     font-size: 25px;
     padding-top: 155px;
 }
-
+.traje-index img {
+    width: 100%;
 }
+.parrafo-mobile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 100px 0px 0px 0px;
+    margin: 90px 0px 0px -250px;
+}
+
+
+/* --------CATALOGO-------- */
+.catalogo-galeria-principal{
+padding: 115px 0px;
+}
+
+.catalogo-galeria {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px    ;
+}
+
+.catalogo-galeria img {
+    width: 95%;
+    text-align: center;
+    padding: 5px;
+    gap: 10px;
+}
+
+.slider-productos {
+    display: flex;
+flex-direction: column;
+    align-items: center;
+}
+
+}   
