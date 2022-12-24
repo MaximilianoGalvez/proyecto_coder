@@ -41,8 +41,13 @@ header nav ul {
     font-size: 15px;
     padding: 15px;
     border-radius: 10px;
+    transition-duration: 0.5s;
 }
 
+.btn-titulo:hover {
+    font-size: larger;
+color:aqua;
+}
 
     .parrafo {
 
@@ -80,7 +85,7 @@ padding: 5px;
 
 .slider-productos {
     display: flex;
-    gap: 15px;
+    gap: 10px;
 }
 
 /* ====Tarjeta==== */
@@ -104,6 +109,10 @@ padding: 5px;
     align-items: center;
 }
 
+.tarjeta-producto:hover {
+
+}
+
 /* ---boton--- */
 
 .btn{
@@ -111,11 +120,16 @@ padding: 5px;
     border: 2px solid rgba(15, 2, 44, 0.555);
     color: rgb(153, 153, 153);
     border-radius: 10px;
-    margin: 8px 10px;
-    padding: 3px 8px;
-    
+    margin: 10px 180px;
+    padding: 3px 8px 5px 8px;
+    transition-duration: 0.5s;
 }
 
+.btn:hover {
+transform: scale(1.1);
+background-color: red;
+color: white;
+}
 /* -----footer----- */
 
 .titulo-categorias {
@@ -137,17 +151,18 @@ padding: 5px;
 .catalogo-galeria-principal h2 {
     font-size: 40px;
 text-align: center;
-padding: 15px;
+padding: 40px;
 
 }
 
 .catalogo-galeria {
     display: grid;
-    grid-template-columns: repeat(4, 23.5%);
+    grid-template-columns: repeat(4, 18.5%);
     grid-template-rows: repeat(2, 25vh);
-    gap: 10px;
+    gap: 20px;
     justify-content: center;
-}
+    
+    }
 
 .catalogo-galeria img{
 width: 100%;
@@ -155,8 +170,24 @@ height: 100%;
 }
 
 .destacada {
+    box-shadow: 10px 5px 10px 5px rgba(0, 0, 0, 0.719);
     grid-column: span 2;
     grid-row: span 2;
+    transition-duration: 1s;
+}
+.destacada:hover {
+    transform: scale(1.2);
+    box-shadow:0px 0px 5px 15px aqua;
+}
+
+
+.img-imagenes {
+    box-shadow: 10px 5px 10px 5px rgba(0, 0, 0, 0.719);
+    transition-duration: 1s;
+}
+.img-imagenes:hover {
+    transform: scale(1.2);
+box-shadow:0px 0px 5px 5px aqua;
 }
 
 /* =====PROMOCIONES===== */
