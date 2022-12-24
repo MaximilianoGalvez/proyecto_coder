@@ -49,17 +49,6 @@ header nav ul {
 color:aqua;
 }
 
-    .parrafo {
-
-        width: 400px;
-        border-radius: 20px;
-        border-style: dashed;
-        margin: 10px 0px 0px 650px;
-        padding: 10px 10px;        
-        font-size: 15px;
-        background-color:rgba(68, 69, 82, 0.548);
-}
-
 /* ====INDEX==== */
 
 /* ----Portada---- */
@@ -74,7 +63,8 @@ background-position: center;
 
 .titulo-portada {
     border-radius: 30px;
-    padding: 90px 450px;
+    padding: 90px;
+    text-align: center;
     }
 
 .producto {
@@ -86,6 +76,24 @@ padding: 5px;
 .slider-productos {
     display: flex;
     gap: 30px;
+}
+
+.traje-index {
+    
+    padding: 35px;
+    display: flex;
+    justify-content: end;
+}
+
+.parrafo {
+
+    width: 400px;
+    border-radius: 20px;
+    border-style: dashed;
+    margin: -505px 0px 0px 250px;
+    padding: 10px 10px;        
+    font-size: 15px;
+    background-color:rgba(68, 69, 82, 0.548);
 }
 
 /* ====Tarjeta==== */
@@ -100,7 +108,7 @@ padding: 5px;
 
 .tarjeta-producto {
     min-width: 420px ;
-    height: 380px;
+    height: 420px;
     
     display: flex;
     flex-direction: column;
@@ -132,8 +140,8 @@ transform: scale(1.1);
 
 .btn:hover {
 transform: scale(1.1);
-background-color: red;
-color: white;
+background-color:aqua;
+color: black;
 }
 
 /* -----footer----- */
