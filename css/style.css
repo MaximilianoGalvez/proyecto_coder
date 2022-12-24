@@ -36,7 +36,6 @@ header nav ul {
     }
 
 .btn-titulo {
-    background-color:rgba(68, 69, 82, 0.548);
     color: black;
     font-size: 15px;
     padding: 15px;
@@ -45,6 +44,7 @@ header nav ul {
 }
 
 .btn-titulo:hover {
+    background-color:rgba(68, 69, 82, 0.548);
     font-size: larger;
 color:aqua;
 }
@@ -251,3 +251,25 @@ align-items: center;
             text-align: center;
     }
 
+@media (max-width: 375px) {
+    
+    header {
+        padding: 5px;
+        text-align: center;
+        display: block;
+        flex-direction: column;
+    }
+
+    header h1 {
+        text-align: center;
+    }
+    header nav ul {
+    display: block;
+}
+
+.titulo-portada {
+    font-size: 25px;
+    padding-top: 155px;
+}
+
+}
