@@ -110,6 +110,12 @@ padding: 5px;
 
 .tarjeta-producto:hover {
 transform: scale(1.1);
+
+}
+
+.img-zapatos:hover {
+    border: 5px solid aqua;
+    transform: rotatey(-180deg);
 }
 
 /* ---boton--- */
