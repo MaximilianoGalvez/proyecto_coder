@@ -107,6 +107,7 @@ padding: 5px;
 }
 
 .tarjeta-producto {
+    overflow: hidden;
     min-width: 420px ;
     height: 420px;
     
@@ -304,6 +305,7 @@ padding: 115px 0px;
 }
 
 .slider-productos {
+    overflow: hidden;
     display: flex;
 flex-direction: column;
     align-items: center;
