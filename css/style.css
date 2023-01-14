@@ -1,6 +1,6 @@
-* {
-margin: 0;
-padding: 0;
+*{
+margin:0;
+padding:0;
 box-sizing: border-box;
 font-family: Georgia, 'Times New Roman', Times, serif;
 
@@ -116,7 +116,7 @@ padding: 5px;
 }
 
 .tarjeta-producto {
-    overflow: hidden;
+
     min-width: 420px ;
     height: 420px;
     
@@ -167,7 +167,19 @@ color: white;
 
 /* ========CATALOGO======== */
 
+.catalogo-galeria-principal {
+    height: 100vh;
+}
+
+.catalogo-galeria-principal h2 {
+padding: 15px;
+font-size: 40px;
+padding: 100px;
+text-align: center;
+}
+
 .catalogo-galeria {
+    
     display: grid;
     grid-template-columns: repeat(4, 18.5%);
     grid-template-rows: repeat(2, 25vh);
@@ -305,9 +317,6 @@ align-items: center;
 
 
 /* --------CATALOGO-------- */
-.catalogo-galeria-principal{
-padding: 115px 0px;
-}
 
 .catalogo-galeria {
     display: flex;
