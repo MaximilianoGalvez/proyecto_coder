@@ -303,8 +303,8 @@ align-items: center;
     padding-top: 155px;
 }
 .traje-index img {
-    width: 100%;
-    
+    width: 80vh;
+    background-size: 300px;
 }
 .parrafo-mobile{
     display: flex;
