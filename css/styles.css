@@ -1,3 +1,18 @@
-
+nav {
+  background-color: rgba(20, 31, 194, 0.548);
+  padding: 10px;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: right;
+}
+nav ul li {
+  padding: 10px;
+}
+nav ul li a {
+  font-size: 15px;
+  text-decoration: none;
+}
 
 /*# sourceMappingURL=styles.css.map */
