@@ -1,3 +1,36 @@
+header {
+    background-color:rgba(20, 31, 194, 0.548);
+    padding: 20px;
+    
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 100%;
+    position: absolute;
+    top: 0;
+}
+header nav ul {
+    display: flex;
+    gap: 10px;
+    }
+
+.btn-titulo {
+    color: black;
+    font-size: 15px;
+    padding: 15px;
+    border-radius: 150px;
+    transition-duration: 0.5s;
+}
+
+.btn-titulo:hover {
+    font-size: larger;
+color:white;
+border: 2px solid;
+padding: 10px; 
+}
+
 nav {
     background-color:rgba(20, 31, 194, 0.548);
     padding: 10px 50px;
@@ -9,4 +42,5 @@ li {
 padding: 10px;
 font-size: 20px;
 }
+
 }
