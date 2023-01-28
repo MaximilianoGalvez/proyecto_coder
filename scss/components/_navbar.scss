@@ -13,20 +13,17 @@ header {
 }
 header nav ul {
     display: flex;
-    gap: 10px;
+    gap: 5px;
+
+    nav {
+        padding: 10px;
+
+        display: flex;
+        justify-content: end;
+
+        li {
+            padding: 10px;
+            font-size: 20px;
+        }
     }
-
-
-nav {
-    background-color:rgba(20, 31, 194, 0.548);
-    padding: 10px 50px;
-
-    display: flex;
-    justify-content: end;
-
-li {
-padding: 10px;
-font-size: 20px;
-}
-
 }
