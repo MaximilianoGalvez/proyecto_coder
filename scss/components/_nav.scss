@@ -27,3 +27,46 @@ header nav ul {
         }
     }
 }
+
+@media (max-width: 375px) {
+        
+    header {
+    padding: 15px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav ul {
+    display: block;
+}
+
+.titulo-portada {
+    margin: 50px 0px;
+    font-size: 20px;
+    padding-top: 155px;
+    
+}
+
+.traje-index {
+    margin-top: -170px;
+    width: 60px;
+    margin-left: 100%;
+}
+.parrafo-mobile{
+    color: rgba(255, 255, 255, 0.658);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 100px 0px 0px 0px;
+    margin: -130px 0px 0px -250px;
+}
+
+.titulo-categorias {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+}
