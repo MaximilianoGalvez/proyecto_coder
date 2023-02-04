@@ -15,7 +15,7 @@ ul, li {
 
 header {
   background-color: rgba(20, 31, 194, 0.548);
-  padding: 20px;
+  padding: 15px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -41,37 +41,12 @@ header nav ul nav li {
 @media (max-width: 375px) {
   header {
     padding: 15px;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-  }
-  header nav ul {
     display: block;
+    text-align: center;
   }
-  .titulo-portada {
-    margin: 50px 0px;
-    font-size: 20px;
-    padding-top: 155px;
-  }
-  .traje-index {
-    margin-top: -170px;
-    width: 60px;
-    margin-left: 100%;
-  }
-  .parrafo-mobile {
-    color: rgba(255, 255, 255, 0.658);
-    display: flex;
+  header nav {
+    display: block;
     justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding: 100px 0px 0px 0px;
-    margin: -130px 0px 0px -250px;
-  }
-  .titulo-categorias {
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
   }
 }
 .tarjeta-producto {
@@ -193,13 +168,6 @@ header nav ul nav li {
   font-size: 40px;
   color: rgb(0, 0, 0);
   background-position: center;
-}
-
-.portada img {
-  margin-top: 5px;
-  margin-right: 80px;
-  padding: 20px;
-  border-radius: 40px;
 }
 
 .titulo-portada {
