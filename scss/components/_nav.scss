@@ -27,17 +27,3 @@ header nav ul {
         }
     }
 }
-
-@media (max-width: 375px) {
-
-    header {
-
-    padding: 15px;
-    display: block;
-    text-align: center;
-}
-    header nav {
-        display: block;
-        justify-content: center;
-    }
-}
