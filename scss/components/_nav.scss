@@ -29,7 +29,7 @@ header nav ul {
 }
 @media (max-width: 375px) {
     header {
-        padding: 15px;
+        padding: 20px;
         text-align: center;
         display: block;
         flex-direction: column;
@@ -41,6 +41,11 @@ header nav ul {
     }
     header nav ul {
     display: block;
+}
+.portada h2 {
+    width: 70vh;
+    margin: 90px -80px 50px;
+    margin-bottom: -50px;
 }
 
 .titulo-portada {
@@ -55,6 +60,7 @@ header nav ul {
     background-size: 300px;
 }
 .parrafo-mobile{
+    color: white;
     display: flex;
     justify-content: center;
     align-items: center;
