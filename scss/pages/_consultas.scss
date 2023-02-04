@@ -5,13 +5,19 @@
     
         padding: 15px 0px 20px 0px;
         border-radius: 10px;
-        margin: 10px 730px;
+        margin: 10px 10px;
         }
         
         .titulo-consultas {
-                height: 100vh;
+            background-color: rgba(20, 32, 194, 0.253);
+                height: 100%;
+                margin:100px 550px 50px;
                 color: rgb(0, 0, 0);
-                padding-top: 100px;
+                padding: 10px;
                 font-size: 25px;
-                text-align: center;
+        text-align: start;
+        }
+
+        .titulo-consultas {
+        text-align: center;
         }

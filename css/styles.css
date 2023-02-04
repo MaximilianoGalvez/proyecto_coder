@@ -15,7 +15,7 @@ ul, li {
 
 header {
   background-color: rgba(20, 31, 194, 0.548);
-  padding: 15px;
+  padding: 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -38,6 +38,90 @@ header nav ul nav li {
   font-size: 20px;
 }
 
+@media (max-width: 375px) {
+  header {
+    padding: 15px;
+    text-align: center;
+    display: block;
+    flex-direction: column;
+  }
+  header h1 {
+    margin-top: 20px;
+    text-align: center;
+  }
+  header nav ul {
+    display: block;
+  }
+  .titulo-portada {
+    margin-top: 90px;
+    font-size: 25px;
+  }
+  .traje-index img {
+    overflow: hidden;
+    margin-right: -50px;
+    height: 50vh;
+    width: 50vh;
+    background-size: 300px;
+  }
+  .parrafo-mobile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 100px 0px 0px 0px;
+    margin: -100px 0px 0px -200px;
+  }
+  /* --------CATALOGO-------- */
+  .catalogo-galeria {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+  }
+  .catalogo-galeria img {
+    width: 89%;
+    text-align: center;
+    padding: 5px;
+    gap: 10px;
+  }
+  .slider-productos {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .titulo-categorias {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  /* =====PROMOCIONES===== */
+  .titulo-promociones h2 {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    margin-top: 70px;
+    padding-top: 100px;
+    font-size: 40px;
+  }
+  .promociones-descuentos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
+  }
+  .promociones-descuentos img {
+    width: 90%;
+    border: 6px solid rgb(57, 57, 116);
+    margin-top: 80px;
+    border-style: double;
+    box-shadow: 10px 5px 10px 5px rgba(0, 0, 0, 0.719);
+  }
+  .promociones-descuentos img:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 5px 5px rgb(57, 57, 116);
+  }
+}
 .tarjeta-producto {
   min-width: 420px;
   height: 420px;
@@ -112,7 +196,7 @@ header nav ul nav li {
 
 .btn-titulo {
   color: black;
-  font-size: 15px;
+  font-size: 17px;
   padding: 15px;
   border-radius: 150px;
   transition-duration: 0.5s;
@@ -152,6 +236,7 @@ header nav ul nav li {
 
 /* ----Portada---- */
 .portada {
+  margin-right: 50px;
   height: 100vh;
   background-color: white;
   font-size: 40px;
@@ -186,7 +271,7 @@ header nav ul nav li {
   width: 400px;
   border-radius: 20px;
   border-style: dashed;
-  margin: -435px 0px 0px 250px;
+  margin: -410px 0px 0px 250px;
   padding: 10px 10px;
   font-size: 35px;
   text-align: center;
@@ -197,14 +282,20 @@ header nav ul nav li {
 .formulario {
   padding: 15px 0px 20px 0px;
   border-radius: 10px;
-  margin: 10px 730px;
+  margin: 10px 10px;
 }
 
 .titulo-consultas {
-  height: 100vh;
+  background-color: rgba(20, 32, 194, 0.253);
+  height: 100%;
+  margin: 100px 550px 50px;
   color: rgb(0, 0, 0);
-  padding-top: 100px;
+  padding: 10px;
   font-size: 25px;
+  text-align: start;
+}
+
+.titulo-consultas {
   text-align: center;
 }
 
