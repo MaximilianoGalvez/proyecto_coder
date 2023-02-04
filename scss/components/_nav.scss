@@ -1,29 +1,29 @@
-// header {
-//     background-color:rgba(20, 31, 194, 0.548);
-//     padding: 15px;
+header {
+    background-color:rgba(20, 31, 194, 0.548);
+    padding: 15px;
     
 
-//     display: flex;
-//     justify-content: space-between;
-//     align-items: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 
-//     width: 100%;
-//     position: absolute;
-//     top: 0;
-// }
-// header nav ul {
-//     display: flex;
-//     gap: 5px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+}
+header nav ul {
+    display: flex;
+    gap: 5px;
 
-//     nav {
-//         padding: 10px;
+    nav {
+        padding: 10px;
 
-//         display: flex;
-//         justify-content: end;
+        display: flex;
+        justify-content: end;
 
-//         li {
-//             padding: 10px;
-//             font-size: 20px;
-//         }
-//     }
-// }
+        li {
+            padding: 10px;
+            font-size: 20px;
+        }
+    }
+}
