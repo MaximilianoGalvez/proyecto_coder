@@ -27,15 +27,13 @@ header {
 header nav ul {
   display: flex;
   gap: 5px;
-  border-left: 1px solid black;
-  border-right: 1px solid black;
 }
-header nav ul border nav {
+header nav ul nav {
   padding: 10px;
   display: flex;
   justify-content: end;
 }
-header nav ul border nav li {
+header nav ul nav li {
   padding: 10px;
   font-size: 20px;
 }
@@ -386,6 +384,12 @@ i {
   border-bottom: 2px solid black;
 }
 
+.map {
+  bottom: 25%;
+  padding-left: 50%;
+  position: fixed;
+}
+
 /* =====PROMOCIONES===== */
 .titulo-promociones h2 {
   height: 100%;
@@ -478,6 +482,16 @@ i {
 .img-imagenes:hover {
   transform: scale(1.1);
   box-shadow: 0px 0px 5px 5px rgb(57, 57, 116);
+}
+
+.catalogo-galeria p {
+  color: rgb(0, 68, 255);
+  position: absolute;
+  transform: translate(50%, 50%);
+  padding-left: 210px;
+  padding-top: 80px;
+  font-size: 50px;
+  transition-duration: 1s;
 }
 
 /*# sourceMappingURL=styles.css.map */

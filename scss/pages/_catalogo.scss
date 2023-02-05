@@ -47,3 +47,12 @@
     box-shadow:0px 0px 5px 5px rgb(57, 57, 116);
     }
     
+    .catalogo-galeria p {
+        color:rgb(0, 68, 255);
+        position: absolute;
+        transform: translate(50%, 50%);
+        padding-left: 210px;
+        padding-top: 80px;
+        font-size: 50px;
+        transition-duration: 1s;
+    }
