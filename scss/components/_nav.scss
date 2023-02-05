@@ -1,5 +1,5 @@
 header {
-    background-color:rgba(20, 31, 194, 0.548);
+    background-color:$color-primario;
     padding: 20px;
     
 
@@ -10,11 +10,14 @@ header {
     width: 100%;
     position: absolute;
     top: 0;
+    
 }
 header nav ul {
     display: flex;
     gap: 5px;
-
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border
     nav {
         padding: 10px;
 
@@ -36,14 +39,14 @@ header nav ul {
     }
 
     header h1 {
-        margin-top: 20px;
+        margin-top: 10px;
         text-align: center;
     }
     header nav ul {
     display: block;
 }
 .portada h2 {
-    width: 70vh;
+    width: 65vh;
     margin: 90px -80px 50px;
     margin-bottom: -50px;
 }
@@ -53,7 +56,6 @@ header nav ul {
     font-size: 25px;
 }
 .traje-index img {
-    overflow: hidden;
     margin-right: -50px;
     height: 50vh;
     width: 50vh;
@@ -86,7 +88,6 @@ header nav ul {
 }
 
 .slider-productos {
-    overflow: hidden;
     display: flex;
 flex-direction: column;
     align-items: center;

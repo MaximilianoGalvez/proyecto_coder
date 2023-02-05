@@ -14,13 +14,13 @@ padding: 10px;
 }
     /* ---boton--- */
     
-    .btn{
-        background-color: rgb(57, 57, 116);
+    .btn-formulario{
+        background-color: black;
         border: 2px solid rgba(15, 2, 44, 0.555);
         color: white;
         border-radius: 10px;
-        margin: 10px 180px;
-        padding: 3px 8px 5px 8px;
+        padding: 3px 20px 15px 20px;
+        font-size: 20px;
         transition-duration: 0.5s;
     }
     
@@ -29,4 +29,71 @@ padding: 10px;
     background-color:red;
     color: white;
     }
+
+    .btn{
+        background-color: black;
+        border: 2px solid rgba(15, 2, 44, 0.555);
+        color: white;
+        border-radius: 10px;
+        padding: 3px 10px 8px 10px;
+        font-size: 20px;
+        transition-duration: 0.5s;
+        margin-top: 20px;
+    }
     
+    .btn-formulario:hover {
+    transform: scale(1.1);
+    background-color:black;
+    color: white;
+    }
+    .redes-sociales {
+        margin: 10px -37px;
+        position: absolute;
+        display: flex;
+        justify-content: start;
+        font-size: 30px;
+        gap: 10px;  
+    }
+
+    i {
+        text-align: center;
+        font-size: 25px;
+        color: black;
+        margin:1px;
+        border-radius: 50%;
+        padding: 10px;
+        box-shadow: 0px 5px 10px rgb(0, 0, 0, .35);
+        transition: .3s ease;
+    }
+    .bi-whatsapp:hover {
+        background-color: hsla(108, 72%, 25%, 0.753);
+        color: white;
+        box-shadow: 0 0 15px hsla(108, 72%, 25%, 0.753),
+                    0 0 45px hsla(108, 72%, 25%, 0.753),
+                    0 0 75px hsla(108, 72%, 25%, 0.753),
+                    0 0 115px hsla(108, 72%, 25%, 0.753);
+    }
+    .bi-twitter:hover {
+        background-color: hsla(207, 73%, 40%, 0.753);
+        color: white;
+        box-shadow: 0 0 15px hsla(207, 73%, 40%, 0.753),
+                    0 0 45px hsla(207, 73%, 40%, 0.753),
+                    0 0 75px hsla(207, 73%, 40%, 0.753),
+                    0 0 115px hsla(207, 73%, 40%, 0.753);
+    }
+    .bi-facebook:hover {
+        background-color: hsla(236, 81%, 37%, 0.753);
+        color: white;
+        box-shadow: 0 0 15px hsla(236, 81%, 37%, 0.753),
+                    0 0 45px hsla(236, 81%, 37%, 0.753),
+                    0 0 75px hsla(236, 81%, 37%, 0.753),
+                    0 0 115px hsla(236, 81%, 37%, 0.753);
+    }
+    .bi-instagram:hover {
+        background-color: hsla(281, 50%, 46%, 0.753);
+        color: white;
+        box-shadow: 0 0 15px hsla(281, 50%, 46%, 0.753),
+                    0 0 45px hsla(281, 50%, 46%, 0.753),
+                    0 0 75px hsla(281, 50%, 46%, 0.753),
+                    0 0 115px hsla(281, 50%, 46%, 0.753);
+    }

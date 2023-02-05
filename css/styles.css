@@ -27,13 +27,15 @@ header {
 header nav ul {
   display: flex;
   gap: 5px;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
 }
-header nav ul nav {
+header nav ul border nav {
   padding: 10px;
   display: flex;
   justify-content: end;
 }
-header nav ul nav li {
+header nav ul border nav li {
   padding: 10px;
   font-size: 20px;
 }
@@ -46,14 +48,14 @@ header nav ul nav li {
     flex-direction: column;
   }
   header h1 {
-    margin-top: 20px;
+    margin-top: 10px;
     text-align: center;
   }
   header nav ul {
     display: block;
   }
   .portada h2 {
-    width: 70vh;
+    width: 65vh;
     margin: 90px -80px 50px;
     margin-bottom: -50px;
   }
@@ -62,7 +64,6 @@ header nav ul nav li {
     font-size: 25px;
   }
   .traje-index img {
-    overflow: hidden;
     margin-right: -50px;
     height: 50vh;
     width: 50vh;
@@ -91,7 +92,6 @@ header nav ul nav li {
     gap: 10px;
   }
   .slider-productos {
-    overflow: hidden;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -216,13 +216,13 @@ header nav ul nav li {
 }
 
 /* ---boton--- */
-.btn {
-  background-color: rgb(57, 57, 116);
+.btn-formulario {
+  background-color: black;
   border: 2px solid rgba(15, 2, 44, 0.555);
   color: white;
   border-radius: 10px;
-  margin: 10px 180px;
-  padding: 3px 8px 5px 8px;
+  padding: 3px 20px 15px 20px;
+  font-size: 20px;
   transition-duration: 0.5s;
 }
 
@@ -230,6 +230,67 @@ header nav ul nav li {
   transform: scale(1.1);
   background-color: red;
   color: white;
+}
+
+.btn {
+  background-color: black;
+  border: 2px solid rgba(15, 2, 44, 0.555);
+  color: white;
+  border-radius: 10px;
+  padding: 3px 10px 8px 10px;
+  font-size: 20px;
+  transition-duration: 0.5s;
+  margin-top: 20px;
+}
+
+.btn-formulario:hover {
+  transform: scale(1.1);
+  background-color: black;
+  color: white;
+}
+
+.redes-sociales {
+  margin: 10px -37px;
+  position: absolute;
+  display: flex;
+  justify-content: start;
+  font-size: 30px;
+  gap: 10px;
+}
+
+i {
+  text-align: center;
+  font-size: 25px;
+  color: black;
+  margin: 1px;
+  border-radius: 50%;
+  padding: 10px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.35);
+  transition: 0.3s ease;
+}
+
+.bi-whatsapp:hover {
+  background-color: hsla(108deg, 72%, 25%, 0.753);
+  color: white;
+  box-shadow: 0 0 15px hsla(108deg, 72%, 25%, 0.753), 0 0 45px hsla(108deg, 72%, 25%, 0.753), 0 0 75px hsla(108deg, 72%, 25%, 0.753), 0 0 115px hsla(108deg, 72%, 25%, 0.753);
+}
+
+.bi-twitter:hover {
+  background-color: hsla(207deg, 73%, 40%, 0.753);
+  color: white;
+  box-shadow: 0 0 15px hsla(207deg, 73%, 40%, 0.753), 0 0 45px hsla(207deg, 73%, 40%, 0.753), 0 0 75px hsla(207deg, 73%, 40%, 0.753), 0 0 115px hsla(207deg, 73%, 40%, 0.753);
+}
+
+.bi-facebook:hover {
+  background-color: hsla(236deg, 81%, 37%, 0.753);
+  color: white;
+  box-shadow: 0 0 15px hsla(236deg, 81%, 37%, 0.753), 0 0 45px hsla(236deg, 81%, 37%, 0.753), 0 0 75px hsla(236deg, 81%, 37%, 0.753), 0 0 115px hsla(236deg, 81%, 37%, 0.753);
+}
+
+.bi-instagram:hover {
+  background-color: hsla(281deg, 50%, 46%, 0.753);
+  color: white;
+  box-shadow: 0 0 15px hsla(281deg, 50%, 46%, 0.753), 0 0 45px hsla(281deg, 50%, 46%, 0.753), 0 0 75px hsla(281deg, 50%, 46%, 0.753), 0 0 115px hsla(281deg, 50%, 46%, 0.753);
 }
 
 /* -----footer----- */
@@ -285,24 +346,44 @@ header nav ul nav li {
 
 /* =====CONSULTAS===== */
 /* -----Formulario----- */
+.consulta-consulta {
+  margin-top: 90px;
+  font-size: 40px;
+  margin-left: 290px;
+}
+
 .formulario {
-  padding: 15px 0px 20px 0px;
-  border-radius: 10px;
-  margin: 10px 10px;
+  padding-left: 50px;
 }
 
 .titulo-consultas {
-  background-color: rgba(20, 32, 194, 0.253);
-  height: 100%;
-  margin: 100px 550px 50px;
   color: rgb(0, 0, 0);
-  padding: 10px;
+  padding-left: 60px;
+  padding-top: 10px;
+  margin-right: 57%;
   font-size: 25px;
-  text-align: start;
 }
 
-.titulo-consultas {
-  text-align: center;
+.titulo-consultas h3 {
+  margin-top: 30px;
+  margin-left: 50px;
+}
+
+.formulario label {
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.titulo-consultas form input,
+.titulo-consultas form button,
+.titulo-consultas textarea {
+  width: 100%;
+  border: none;
+  padding: 0.7em;
+  background-color: none;
+  outline: none;
+  border-bottom: 2px solid black;
 }
 
 /* =====PROMOCIONES===== */
