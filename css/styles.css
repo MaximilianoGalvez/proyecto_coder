@@ -215,7 +215,7 @@ header nav ul nav li {
 
 /* ---boton--- */
 .btn-formulario {
-  background-color: black;
+  background-color: rgba(20, 31, 194, 0.548);
   border: 2px solid rgba(15, 2, 44, 0.555);
   color: white;
   border-radius: 10px;
@@ -224,7 +224,7 @@ header nav ul nav li {
   transition-duration: 0.5s;
 }
 
-.btn:hover {
+.btn-formulario:hover {
   transform: scale(1.1);
   background-color: red;
   color: white;
@@ -241,9 +241,9 @@ header nav ul nav li {
   margin-top: 20px;
 }
 
-.btn-formulario:hover {
+.btn:hover {
   transform: scale(1.1);
-  background-color: black;
+  background-color: red;
   color: white;
 }
 
@@ -381,13 +381,13 @@ i {
   padding: 0.7em;
   background-color: none;
   outline: none;
-  border-bottom: 2px solid black;
+  border-bottom: 2px solid rgba(20, 31, 194, 0.548);
 }
 
 .map {
-  bottom: 25%;
+  bottom: 30%;
   padding-left: 50%;
-  position: fixed;
+  position: absolute;
 }
 
 /* =====PROMOCIONES===== */
@@ -410,7 +410,7 @@ i {
 .promociones-descuentos img {
   width: 100%;
   height: 100%;
-  border: 6px solid rgb(57, 57, 116);
+  border: 6px solid rgba(20, 31, 194, 0.548);
   margin-top: 80px;
   border-style: double;
   transition-duration: 1.7s;
@@ -424,17 +424,56 @@ i {
 
 /* =====QUIENES SOMOS===== */
 .titulo-catalogo {
-  height: 100vh;
+  margin-top: 90px;
+  font-size: 40px;
+  text-align: center;
 }
 
-.titulo-catalogo h2 {
-  padding: 15px;
-  font-size: 40px;
-  padding: 100px;
+.parrafo-qs {
+  width: 400px;
+  border-radius: 20px;
+  border-style: dashed;
+  margin: 130px 0px 0px 350px;
+  padding: 10px 10px;
+  font-size: 30px;
   text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  position: absolute;
+}
+
+.qs-formulario {
+  padding-left: 50px;
+}
+
+.titulo-quiensomos {
+  color: rgb(0, 0, 0);
+  padding-left: 160px;
+  padding-top: 10px;
+  margin-right: 60%;
+  margin-bottom: 150px;
+  font-size: 25px;
+  transform: translate(100%, 20%);
+}
+
+.qs-formulario label {
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.titulo-quiensomos form input,
+.titulo-quiensomos form button {
+  width: 100%;
+  border: none;
+  padding: 0.7em;
+  background-color: none;
+  outline: none;
+  border-bottom: 2px solid rgba(20, 31, 194, 0.548);
+  margin: 5px;
+}
+
+.titulo-quiensomos h3 {
+  margin-top: 30px;
+  margin-left: 50px;
 }
 
 /* ========CATALOGO======== */
@@ -471,7 +510,7 @@ i {
 
 .destacada:hover {
   transform: scale(1.1);
-  box-shadow: 0px 0px 5px 5px rgb(57, 57, 116);
+  box-shadow: 0px 0px 5px 5px rgba(20, 31, 194, 0.548);
 }
 
 .img-imagenes {
@@ -481,17 +520,15 @@ i {
 
 .img-imagenes:hover {
   transform: scale(1.1);
-  box-shadow: 0px 0px 5px 5px rgb(57, 57, 116);
+  box-shadow: 0px 0px 5px 5px rgba(20, 31, 194, 0.548);
 }
 
 .catalogo-galeria p {
-  color: rgb(0, 68, 255);
-  position: absolute;
-  transform: translate(50%, 50%);
-  padding-left: 210px;
-  padding-top: 80px;
-  font-size: 50px;
-  transition-duration: 1s;
+  display: grid;
+  grid-template-columns: repeat(4, 18.5%);
+  grid-template-rows: repeat(2, 25vh);
+  gap: 30px;
+  justify-content: center;
 }
 
 /*# sourceMappingURL=styles.css.map */

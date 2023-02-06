@@ -15,7 +15,7 @@ padding: 10px;
     /* ---boton--- */
     
     .btn-formulario{
-        background-color: black;
+        background-color: $color-primario;
         border: 2px solid rgba(15, 2, 44, 0.555);
         color: white;
         border-radius: 10px;
@@ -23,12 +23,12 @@ padding: 10px;
         font-size: 20px;
         transition-duration: 0.5s;
     }
-    
-    .btn:hover {
-    transform: scale(1.1);
-    background-color:red;
-    color: white;
-    }
+
+    .btn-formulario:hover {
+        transform: scale(1.1);
+        background-color:red;
+        color: white;
+        }
 
     .btn{
         background-color: black;
@@ -40,12 +40,13 @@ padding: 10px;
         transition-duration: 0.5s;
         margin-top: 20px;
     }
+
+    .btn:hover {
+        transform: scale(1.1);
+        background-color:red;
+        color: white;
+        }
     
-    .btn-formulario:hover {
-    transform: scale(1.1);
-    background-color:black;
-    color: white;
-    }
     .redes-sociales {
         margin: 10px -37px;
         position: absolute;

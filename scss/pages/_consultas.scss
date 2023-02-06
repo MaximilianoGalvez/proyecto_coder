@@ -6,7 +6,7 @@
         margin-top: 90px;
         font-size: 40px;
         margin-left: 290px;
-    }
+        }
     // formulario-consulta
     
     .formulario {
@@ -40,11 +40,11 @@
         padding: .7em;
         background-color: none;
         outline: none;
-        border-bottom: 2px solid black;
+        border-bottom: 2px solid $color-primario;
     }
 
     .map{
-        bottom: 25%;
+        bottom: 30%;
         padding-left: 50%;
-        position: fixed;
+        position: absolute;
     }
