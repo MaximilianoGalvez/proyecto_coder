@@ -8,9 +8,10 @@
 
     .parrafo-qs {
         width: 400px;
+        background-color: rgba(0, 0, 255, 0.342);
         border-radius: 20px;
-        border-style: dashed;
-        margin: 130px 0px 0px 350px;
+        border: 4px double;
+        margin: 105px 0px 0px 350px;
         padding: 10px 10px;        
         font-size: 30px;
         text-align: center;
@@ -53,4 +54,44 @@
 .titulo-quiensomos h3 {
     margin-top: 30px;
     margin-left: 50px;
+    transform: translateX(50%);
+}
+
+@media (max-width: 768px) {
+    .titulo-quiensomos form input,
+.titulo-quiensomos form button {
+        border: none;
+        padding: .3em 270px;
+        background-color: none;
+        outline: none;
+        border-bottom: 2px solid $color-primario;
+        margin: 5px -390px;
+        transform: translate(-5%, 30%);        
+}
+
+.qs-formulario label {
+    position: absolute;
+    margin: 15px -150%;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.parrafo-qs {
+    width: 400px;
+    background-color: rgba(0, 0, 255, 0.342);
+    border-radius: 20px;
+    border: 4px double;
+    margin: 30px 0px 0px 190px;
+    padding: 10px 10px;        
+    font-size: 30px;
+    text-align: center;
+
+}
+
+.titulo-quiensomos h3 {
+    margin-top: 270px;
+    transform: translateX(-200%);
+}
+
 }
